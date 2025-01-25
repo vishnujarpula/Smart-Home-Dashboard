@@ -1,0 +1,87 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard {
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .control {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .control h2 {
+    margin-bottom: 15px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .temp-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temp-display #temp-value {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #e6b800;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .appliances-list label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="color"] {
+    width: 100%;
+  }
+  
